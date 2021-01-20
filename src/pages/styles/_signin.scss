@@ -1,0 +1,66 @@
+.signin {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 66.07px);
+  .hero-img {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    background: url(/src/assets/images/joshua-rawson-harris-bMMOBVp6KQU-unsplash.jpg)
+      no-repeat center;
+    background-size: cover;
+  }
+  .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  h1 {
+    text-transform: capitalize;
+    font-weight: 900;
+  }
+  form {
+    margin-top: 28px;
+  }
+  .inputField {
+    display: block;
+    background: transparent;
+    border: 2px solid $secondary-text;
+    color: $main-text;
+    width: 100%;
+    max-width: 372px;
+    height: 40px;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+    &::placeholder {
+      text-transform: capitalize;
+      color: $secondary-text;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .signin {
+    height: calc(100vh - 125.35px);
+    .content-wrapper {
+      width: 50%;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .signin {
+    .hero-img {
+      display: block;
+      margin-left: 80px;
+      width: 50%;
+    }
+    .inputField {
+      height: 50px;
+    }
+  }
+}

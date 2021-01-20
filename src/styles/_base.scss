@@ -1,0 +1,19 @@
+body {
+  background-color: $main-bg;
+}
+
+.container {
+  padding: 1rem 1.2rem;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 2.5rem 3.2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    padding: 2.5rem 5rem;
+  }
+}

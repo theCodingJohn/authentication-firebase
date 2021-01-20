@@ -1,0 +1,15 @@
+.logo {
+  width: 80px;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    width: 110px;
+  }
+}
+
+@media (min-width: 992px) {
+  header.header {
+    padding-bottom: 0;
+  }
+}

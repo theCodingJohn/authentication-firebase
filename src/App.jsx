@@ -21,7 +21,7 @@ const App = () => {
     <Router>
       <Switch>
         <AuthenticationProvider>
-          <PublicRoute exact path="/signin" component={SignIn}></PublicRoute>
+          <PublicRoute exact path="/" component={SignIn}></PublicRoute>
           <PublicRoute exact path="/signup" component={SignUp}></PublicRoute>
         </AuthenticationProvider>
       </Switch>

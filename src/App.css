@@ -1,1 +1,173 @@
-/* No CSS *//*# sourceMappingURL=App.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+body {
+  background-color: #383737;
+}
+
+.container {
+  padding: 1rem 1.2rem;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 2.5rem 3.2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    padding: 2.5rem 5rem;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.logo {
+  width: 80px;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    width: 110px;
+  }
+}
+
+@media (min-width: 992px) {
+  header.header {
+    padding-bottom: 0;
+  }
+}
+
+.button {
+  cursor: pointer;
+  width: 60%;
+  max-width: 272px;
+  height: 45px;
+  border-radius: 50px;
+  text-transform: capitalize;
+  border-color: transparent;
+  font-size: 1em;
+  background: #ef4837;
+  margin-top: 8px;
+  color: #fff;
+  -webkit-box-shadow: 0px 0px 7px black;
+          box-shadow: 0px 0px 7px black;
+}
+
+.footer a {
+  color: #666666;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.signin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: calc(100vh - 66.07px);
+}
+
+.signin .hero-img {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  background: url(/src/assets/images/joshua-rawson-harris-bMMOBVp6KQU-unsplash.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.signin .content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.signin h1 {
+  text-transform: capitalize;
+  font-weight: 900;
+}
+
+.signin form {
+  margin-top: 28px;
+}
+
+.signin .inputField {
+  display: block;
+  background: transparent;
+  border: 2px solid #666666;
+  color: #fff;
+  width: 100%;
+  max-width: 372px;
+  height: 40px;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.signin .inputField::-webkit-input-placeholder {
+  text-transform: capitalize;
+  color: #666666;
+}
+
+.signin .inputField:-ms-input-placeholder {
+  text-transform: capitalize;
+  color: #666666;
+}
+
+.signin .inputField::-ms-input-placeholder {
+  text-transform: capitalize;
+  color: #666666;
+}
+
+.signin .inputField::placeholder {
+  text-transform: capitalize;
+  color: #666666;
+}
+
+@media (min-width: 768px) {
+  .signin {
+    height: calc(100vh - 125.35px);
+  }
+  .signin .content-wrapper {
+    width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .signin .hero-img {
+    display: block;
+    margin-left: 80px;
+    width: 50%;
+  }
+  .signin .inputField {
+    height: 50px;
+  }
+}
+/*# sourceMappingURL=App.css.map */
