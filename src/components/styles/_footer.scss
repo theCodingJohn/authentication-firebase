@@ -1,0 +1,9 @@
+.footer {
+  a {
+    color: $secondary-text;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
