@@ -18,7 +18,7 @@ const SignIn = () => {
           <Button text="sign in"/>
         </form>
       </div>
-      <Footer/>
+      <Footer link="/signup" text="Create Account"/>
     </main>
     </>  
   )

@@ -1,10 +1,10 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
-const Footer = () => {
+const Footer = ({text, link}) => {
   return (
     <footer className="footer">
-      <Link to="/signup">Create Account</Link>
+      <Link to={`${link}`}>{text}</Link>
     </footer>
   )
 }
