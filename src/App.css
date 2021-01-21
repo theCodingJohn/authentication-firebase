@@ -67,6 +67,11 @@ body {
           box-shadow: 0px 0px 7px black;
 }
 
+.footer {
+  position: absolute;
+  bottom: 1rem;
+}
+
 .footer a {
   color: #666666;
   text-decoration: none;
@@ -76,7 +81,7 @@ body {
   text-decoration: underline;
 }
 
-.signin {
+.signin-signup {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -87,7 +92,7 @@ body {
   height: calc(100vh - 66.07px);
 }
 
-.signin .hero-img {
+.signin-signup .hero-img {
   display: none;
   position: absolute;
   top: 0;
@@ -97,7 +102,7 @@ body {
   background-size: cover;
 }
 
-.signin .content-wrapper {
+.signin-signup .content-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -109,16 +114,16 @@ body {
   margin-bottom: auto;
 }
 
-.signin h1 {
+.signin-signup h1 {
   text-transform: capitalize;
   font-weight: 900;
 }
 
-.signin form {
+.signin-signup form {
   margin-top: 28px;
 }
 
-.signin .inputField {
+.signin-signup .inputField {
   display: block;
   background: transparent;
   border: 2px solid #666666;
@@ -131,22 +136,22 @@ body {
   margin-bottom: 20px;
 }
 
-.signin .inputField::-webkit-input-placeholder {
+.signin-signup .inputField::-webkit-input-placeholder {
   text-transform: capitalize;
   color: #666666;
 }
 
-.signin .inputField:-ms-input-placeholder {
+.signin-signup .inputField:-ms-input-placeholder {
   text-transform: capitalize;
   color: #666666;
 }
 
-.signin .inputField::-ms-input-placeholder {
+.signin-signup .inputField::-ms-input-placeholder {
   text-transform: capitalize;
   color: #666666;
 }
 
-.signin .inputField::placeholder {
+.signin-signup .inputField::placeholder {
   text-transform: capitalize;
   color: #666666;
 }
@@ -161,13 +166,16 @@ body {
 }
 
 @media (min-width: 992px) {
-  .signin .hero-img {
+  .signin-signup {
+    height: calc(100vh - 85.35px);
+  }
+  .signin-signup .hero-img {
     display: block;
     margin-left: 80px;
     width: 50%;
   }
-  .signin .inputField {
-    height: 50px;
+  .signin-signup .inputField {
+    height: 40px;
   }
 }
 /*# sourceMappingURL=App.css.map */

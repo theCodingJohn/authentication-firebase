@@ -1,4 +1,4 @@
-.signin {
+.signin-signup {
   display: flex;
   flex-direction: column;
   height: calc(100vh - 66.07px);
@@ -53,14 +53,15 @@
 }
 
 @media (min-width: 992px) {
-  .signin {
+  .signin-signup {
+    height: calc(100vh - 85.35px);
     .hero-img {
       display: block;
       margin-left: 80px;
       width: 50%;
     }
     .inputField {
-      height: 50px;
+      height: 40px;
     }
   }
 }
