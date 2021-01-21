@@ -8,7 +8,7 @@ const SignIn = () => {
   return (
     <>
     <Header/>
-    <main className="container signin">
+    <main className="container signin-signup">
       <div className="hero-img"></div>
       <div className="content-wrapper">
         <h1>create<br />account</h1>
