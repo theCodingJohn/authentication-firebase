@@ -156,6 +156,10 @@ body {
   color: #666666;
 }
 
+.signin-signup input[type="password"]::-ms-reveal {
+  background-color: white;
+}
+
 @media (min-width: 768px) {
   .signin {
     height: calc(100vh - 125.35px);
