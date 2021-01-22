@@ -41,6 +41,9 @@
       color: $secondary-text;
     }
   }
+  input[type="password"]::-ms-reveal {
+    background-color: white;
+  }
 }
 
 @media (min-width: 768px) {
